@@ -12,3 +12,4 @@ La matrice de confusion présente nos résultats sur un large pool de données :
 Pour utiliser le prototype pour une prédiction : il suffit d'importer une image test dans le répertoire courant, puis de la renommer imagetest.jpg et d'executer les cellues correspondantes. La prédiction sera affichée sous forme de string sur le terminal (cf prediction.png)
 
 
+PS : Il faut bien importer toutes les bibliothèques pour pouvoir executer le code source ainsi qu'un compte Kaggle pour importer le dataset. Aussi, l'utilisation de Google Colab est fortementrecommandée pour executer le fichier notebook EntrainementIABâtiment.ipynb
