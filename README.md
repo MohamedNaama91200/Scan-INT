@@ -9,7 +9,11 @@ avec une précision allant jusqu'à 79% pour 4/5 "tours" du réseau de neurones 
 
 La matrice de confusion présente nos résultats sur un large pool de données : jusqu'à 162 images biens prédites pour les architectures de type Quine Anne sur 175 tests (cf matrice.png)
 
-Pour utiliser le prototype pour une prédiction : il suffit d'importer une image test dans le répertoire courant, puis de la renommer imagetest.jpg et d'executer les cellues correspondantes. La prédiction sera affichée sous forme de string sur le terminal (cf prediction.png)
+Pour utiliser le prototype pour une prédiction : il suffit d'importer une image test dans le répertoire courant, puis de la renommer imagetest.jpg et d'executer les cellues correspondantes. La prédiction sera affichée sous forme de string sur le terminal
+
+Dans notre exemple, le bâtiment Etoile de Télecom SudParis est prédit comme ayant une
+architecture Bahaus ce qui est cohérent
+(cf prediction.png)
 
 
 PS : Il faut bien importer toutes les bibliothèques pour pouvoir executer le code source ainsi qu'un compte Kaggle pour importer le dataset. Aussi, l'utilisation de Google Colab est fortementrecommandée pour executer le fichier notebook EntrainementIABâtiment.ipynb
