@@ -72,7 +72,7 @@ class SelfieCameraApp(App):
 
         
         
-        print("I'M taking a SELFIE")
+        print("...Photo en cours...")
         # On prend une photo
         nouvelle_image=[]
         ret, image = cam.read()#prend la photo
