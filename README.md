@@ -9,5 +9,4 @@ L'application Scan'INT permet de reconnaître l'architecture d'un bâtiment envo
 L'entièreté du user guide ainsi que du dev guide se trouve dans le fichier : Rapport_Final.pdf
 
 
-![alt text](https://gitlab.com/naamamohamedcpge/pro3600-22-sell-25/-/blob/main/results.png)
-
+![](results.jpg)
