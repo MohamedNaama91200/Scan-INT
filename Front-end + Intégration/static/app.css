@@ -1,0 +1,270 @@
+/* 
+Scan'INT 2022 - Telecom SudParis
+Projet informatique
+ */
+
+ /* Ce fichier concerne le style de la page app.html */
+
+ /* ============================================ GENERAL ============================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'avenir';
+}
+
+@font-face {
+    font-family:'Avenir', Arial, Helvetica, sans-serif;
+    src: url();
+}
+
+/* ============================================ HEADER ============================================*/
+
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: auto;
+    background-color: rgb(255, 253, 246);
+    color: #655441;
+}
+
+/* HEADER Titre */
+
+header #Titre {
+    width: auto;
+    height: auto;
+    color: #655441;
+    margin: 10px 10px 10px 25px;
+}
+header #Titre a {
+    /* permet d'enlever le trait de soulignement des liens */
+    text-decoration: none;
+}
+header #Titre a:visited {
+    /* permet d'enlever le trait de soulignement ainsi que la couleur bleu/violette des liens */
+    text-decoration: none;
+    color: #655441;
+}
+header #Titre h1 {
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+header #Titre h2 {
+    font-size: 1em;
+    font-weight: 900;
+}
+
+/* HEADER NAVIGATION BAR */
+
+header nav {
+    position: absolute;
+    right: 30px;
+}
+
+header nav ul {
+    display: flex ;
+    list-style-type: none;
+    align-items: center;
+}
+
+header nav ul li {
+    margin: 10px;
+    font-size: 1.3em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-weight:800;
+}
+
+header nav ul #App {
+    /* l'objectif est d'avoir dans la nav-bar une couleur différente pour le nom de la page sur laquelle on est : si on est sur home, home sera en bleu et le reste en marron etc... */
+    color: #1c70cf;
+}
+
+header nav ul li a:visited {
+    /* lorsqu'un site a déjà été visité, on ne veut pas que le lien soit violet mais garde la couleur marronnée */
+    color:#655441;
+}
+
+header nav ul li a:hover {
+    /* lorsqu'on passe la souris sur l'un des liens cliquables, celui-ci change de couleur */
+    color: #1c70cf;
+}
+
+header nav ul li a:active {
+    color: #1c70cf;
+}
+
+/* ============================================ INTERFACE ============================================*/
+
+body {
+    background-color: rgb(255, 253, 246);
+}
+
+/* Center = zone qui regroupe le texte, la dropzone.. */
+
+.center {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #655441;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+#contener {
+    width: fit-content;
+    margin: 30px auto;
+}
+
+
+/* ============================================ Effet écriture sur le texte de présentation ============================================*/
+
+.title { /* mise en page du titre et animation de celui-ci */
+        overflow: hidden; 
+        border-right: .15em solid rgb(26, 110, 167); 
+        white-space: nowrap;
+        margin: 0 auto; 
+        letter-spacing: 0em; 
+        animation: 
+          typing 3.5s steps(40, end),
+          blink-caret .75s step-end infinite;
+        
+      }
+      
+      /* Effet écriture */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+      
+      /* Effet du curseur */
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: rgb(26, 110, 167); }
+      }
+    
+/* Mise en page du bouton analyser et animation lorsque la souris passe dessus */
+
+.analyser {
+    margin-top: 1em;
+}
+
+ button.analyser-button {
+    margin: auto;
+    align-items: center;
+    background-image: linear-gradient(144deg,#1e3872, #424ef3 50%,#1c70cf);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(58, 58, 58, 0.5) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #655441;
+    font-weight: 900;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  button.analyser-button:active,
+  button.analyser-button:hover {    outline: 0;
+  }
+
+  button.analyser-button span {
+    background-color: rgb(255, 253, 246);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  
+  button.analyser-button:hover span {
+    background: none;
+    color: rgb(255, 253, 246);
+  }
+  
+  @media (min-width: 768px) {
+    button.analyser-button {
+    font-size: 24px;
+      min-width: 196px;
+    }
+  }
+
+button:focus {
+    outline: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#list {
+    font-size: 20px;
+    margin: 50px 0px;
+}
+
+details:hover {
+    cursor: pointer;
+}
+
+
+/* On enlève aussi l'aspect "lien" du bouton anlayser */
+
+.analyser-button a {
+    cursor: pointer;
+    text-decoration: none;
+}
+.analyser-button a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color:white;
+}
+
+.analyser-button a:visited {
+    cursor: pointer;
+    text-decoration:none;
+    color:inherit;
+}
+/* Mise en page de la liste déroulante des styles architecturaux considérés pour l'application  */
+
+ul li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.dropzone {
+     border-radius: 20px;
+}
+
+/* ============================================ FOOTER ============================================*/
+
+footer {
+    position:absolute;
+    bottom:0;  /* on le colle en bas */
+    width:100%;
+    height:100px; 
+ }
+ 
+footer p {
+    color:rgb(255, 253, 246);
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    margin: 20px 0px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
