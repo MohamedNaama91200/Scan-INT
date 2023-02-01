@@ -1,4 +1,4 @@
-### Scan'INT
+# Scan'INT
 
 Projet d'informatique 1A : NAAMA, COLE, ZOUGHEBI, BRUN, ABRI
 
@@ -8,7 +8,7 @@ L'application Scan'INT permet de reconnaître l'architecture d'un bâtiment envo
 
 
 
-# Home Page
+## Home Page
 
 <p align="center">
   <img width="502" height="508" src="scan1.png" >
@@ -16,7 +16,7 @@ L'application Scan'INT permet de reconnaître l'architecture d'un bâtiment envo
 
 
 
-# App Page
+## App Page
 
 
 
@@ -26,8 +26,8 @@ L'application Scan'INT permet de reconnaître l'architecture d'un bâtiment envo
 
 
 
-
-
+## Use Case
+ 
 
 <p align="center">
   <img width="685" height="382" src="scan3.png" >
