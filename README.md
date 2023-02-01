@@ -1,4 +1,4 @@
-# Scan'INT
+# Scan'INT :office: :iphone:
 
 Projet d'informatique 1A : NAAMA, COLE, ZOUGHEBI, BRUN, ABRI
 
