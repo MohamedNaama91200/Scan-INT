@@ -30,5 +30,5 @@ L'application Scan'INT permet de reconnaître l'architecture d'un bâtiment envo
 
 
 <p align="center">
-  <img width="685" height="382" src="scan2.png" >
+  <img width="685" height="382" src="scan3.png" >
 </p>
