@@ -1,4 +1,4 @@
-# PRO3600-22-SELL-25
+# Scan'INT
 
 Projet d'informatique 1A : NAAMA, COLE, ZOUGHEBI, BRUN, ABRI
 
