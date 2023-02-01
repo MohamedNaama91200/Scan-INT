@@ -6,6 +6,7 @@ Scan'INT est une application web crée dans le cadre du projet PRO3600 de Télé
 
 L'application Scan'INT permet de reconnaître l'architecture d'un bâtiment envoyé par l'utilisateur, parmis plus d'une vingtaine de styles architecturaux.
 
+Plus de détails dans le fichier : Rapport_Final.pdf
 
 
 ## Home Page
