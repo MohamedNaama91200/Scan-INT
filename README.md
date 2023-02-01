@@ -1,4 +1,4 @@
-# Scan'INT
+### Scan'INT
 
 Projet d'informatique 1A : NAAMA, COLE, ZOUGHEBI, BRUN, ABRI
 
@@ -6,7 +6,29 @@ Scan'INT est une application web crée dans le cadre du projet PRO3600 de Télé
 
 L'application Scan'INT permet de reconnaître l'architecture d'un bâtiment envoyé par l'utilisateur, parmis plus d'une vingtaine de styles architecturaux.
 
-[!
+
+
+# Home Page
+
 <p align="center">
-  <img width="502" height="508" src="scan1.png" title="Home Page">
+  <img width="502" height="508" src="scan1.png" >
+</p>
+
+
+
+# App Page
+
+
+
+<p align="center">
+  <img width="516" height="508" src="scan2.png" >
+</p>
+
+
+
+
+
+
+<p align="center">
+  <img width="685" height="382" src="scan2.png" >
 </p>
